@@ -16,10 +16,22 @@
     --accent-pink: #E5245E;
     --accent-purple: #591B98;
     --font-family: "Open Sans", serif;
+    --font: normal 16px var(--font-family);
     --font-h1: bold 36px var(--font-family);
     --font-h2: bold 32px var(--font-family);
     --font-h3: bold 28px var(--font-family);
     --font-headline: bold 16px var(--font-family);
     --font-paragraph: normal 16px var(--font-family);
     --font-subtitle: italic 16px var(--font-family);
+}
+
+body{
+    font: var(--font);
+    background-color: var(--background-default);
+}
+
+.container {
+    width: 1280px;
+    padding: 88px 80px 48px 80px;
+    margin: auto;
 }
