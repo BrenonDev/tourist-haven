@@ -1,0 +1,89 @@
+main {
+    border-block: solid 1px var(--border-primary);
+    padding-bottom: 40px;
+}
+
+#introduction {
+    padding-block: 64px;
+}
+
+#introduction h1 {
+    font: var(--font-headline);
+    color: var(--text-headline);
+    text-transform: uppercase;
+    padding-bottom: 2px;
+}
+
+#introduction h2 {
+    font: var(--font-h2);
+    color: var(--text-primary);
+    padding-bottom: 8px;
+}
+
+#sections ol {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+#sections img {
+    width: 1120px;
+    height: 350px;
+    border-radius: 28px;
+    object-fit: cover;
+}
+
+#sections section:nth-child(1) img {
+    object-position: 50% 50%;
+}
+
+#sections section:nth-child(2) img {
+    object-position: 50% 90%;
+}
+
+#sections section:nth-child(3) img {
+    object-position: 50% 90%;
+}
+
+#sections ol section > li {
+    font: var(--font-h3);
+    color: var(--text-primary);
+    margin-left: 40px;
+}
+
+#sections h3 {
+    font: var(--font-h3);
+    color: var(--text-primary);
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+
+#sections section p:nth-child(3) {
+    padding-bottom: 20px;
+}
+
+#sections ul li {
+    list-style-type: disc;
+    font: var(--font-paragraph);
+    margin-left: 35px;
+}
+
+#sections section p:nth-child(4), span {
+    font-weight: bold;
+}
+
+#sections #blue {
+    color: var(--accent-blue);
+}
+
+#sections #purple {
+    color: var(--accent-purple);
+}
+
+#sections #pink {
+    color: var(--accent-pink);
+}
+
+#sections #orange {
+    color: var(--accent-orange);
+}
