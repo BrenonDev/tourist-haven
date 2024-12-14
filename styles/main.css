@@ -1,9 +1,5 @@
-main {
-    border-block: solid 1px var(--border-primary);
-    padding-bottom: 40px;
-}
-
 #introduction {
+    border-top: solid 1px var(--border-primary);
     padding-block: 64px;
 }
 
@@ -86,4 +82,15 @@ main {
 
 #sections #orange {
     color: var(--accent-orange);
+}
+
+#sections {
+    padding-bottom: 40px;
+}
+
+#description {
+    border-top: solid 1px var(--border-primary);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 65px;
 }

@@ -1,0 +1,13 @@
+#signature {
+    text-align: center;
+}
+
+#signature span {
+    font: normal 14px "Roboto Mono", monospace;
+    color: black;
+    background: rgba(100, 100, 100, 0.15);
+    padding: 3px 7px 5px;
+    margin-inline: auto;
+    display: inline-block;
+    border-radius: 5px;
+}
