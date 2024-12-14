@@ -1,23 +1,23 @@
-header h1:nth-child(1) {
+#title h1:nth-child(1) {
     font: var(--font-headline);
     color: var(--text-headline);
     margin-bottom: 8px;
     text-transform: uppercase;
 }
 
-header h1:nth-child(2) {
+#title h1:nth-child(2) {
     font: var(--font-h1);
     color: var(--text-primary);
     margin-bottom: 40px;
 }
 
-header img {
+#description img {
     width: 1120px;
     height: 660px;
     border-radius: 28px;
 }
 
-header p {
+#description p {
     font: var(--font-subtitle);
     text-align: center;
     padding-top: 24px;
