@@ -3,3 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624F;
+    --acent-blue: #0C51A7;
+    --acent-orange: #E95E10;
+    --acent-pink: #E5245E;
+    --acent-purple: #591B98;
+}
